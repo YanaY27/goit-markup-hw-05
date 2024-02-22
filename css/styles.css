@@ -773,6 +773,10 @@ fill: #ffffff;
       margin-bottom: 4px;
   }
 
+  .form-textarea {
+    margin-bottom: 16px;
+  }
+
   .comment-area {
     border: 1px solid rgba(46, 47, 66, 0.4);
       border-radius: 4px;
@@ -800,6 +804,9 @@ fill: #ffffff;
   margin-bottom: 24px;
 }
 
+.field {
+  margin-bottom: 24px;
+}
 
 .label-agreement {
   font-family: "Roboto", sans-serif;
@@ -810,7 +817,7 @@ fill: #ffffff;
     color: #8e8f99;
 }
 
-.span-agreement {
+.checkbox-agreement {
   width: 16px;
   height: 16px;
    border: 1px solid rgba(46, 47, 66, 0.4);
@@ -822,7 +829,7 @@ fill: #ffffff;
   fill: transparent;
   }
 
-.input-agreement:checked + .checkbox-agreement {
+.visually-hidden:checked + .checkbox-agreement {
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
