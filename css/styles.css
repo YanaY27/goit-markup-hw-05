@@ -617,7 +617,10 @@ header {
   fill: #fff;
 }
 /* Modal form */
-.backdrop {
+/* .backdrop-is-open { */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   position: fixed;
   top: 0;
   left: 0;
